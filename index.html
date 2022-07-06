@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <i class="bi bi-x-circle"></i>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#carrito"><svg id="icono" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=#eb5e28 class="bi bi-cart-fill" viewBox="0 0 16 16">
+   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+       </svg></a>
+       <div id="titulo">Tech-Store</div>
+      <div></div>
+</header>
+
+<main class="container-fluid">
+    <div class="row generalContainer">
+    <div class="productsContainer">
+    <div class="row cards"></div>
+    </div>
+        <div class="cartContainer">
+            </div>
+        </div>
+</main>
+
+<div class="row cart">
+    <h3 id="carrito">Carrito</h2>
+    <h3 class="textCart"> Total: $<span class="visualTotal"></span></h3>
+    <div class="row innerCart"></div>
+    <div class="cartBtns">
+        <button class="vaciar">Comprar</button>
+        <button class="comprar">Vaciar Carrito</button>
+    </div>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="info">Info | Contacto | Ayuda</div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="./js/index.js" type="module"></script>
+
+</body>
+
+</html>

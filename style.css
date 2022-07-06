@@ -1,0 +1,128 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.header{
+    background-color: #212529;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#titulo{
+    font-size:5rem;
+    color: #eb5e28;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    
+}
+
+#info{
+    color: #dee2e6;
+    font-family: 'Arvo', serif;
+    font-size:3em;
+}
+
+
+                           
+.card-body{
+    background-color: #edf2f4;
+    
+}
+
+.card-img-top{
+    background-color: #edf2f4;
+}
+
+.card-text{
+    background-color: #edf2f4;
+    font-family: 'Arvo', serif;
+}
+
+.footer{
+    background-color:#212529;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    color: #eb5e28;
+    font-family: 'Arvo', serif;
+    word-spacing: 30px;
+}
+
+#icono{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.carrito{
+    
+    height: 50rem;
+    width: 100%;
+}
+
+.productos{
+    display: flex;
+    margin-left: 10px;
+}
+
+.card{
+    display: flex;
+    margin: 10px;
+    width: 20rem ;
+}
+
+.cart{
+    background-color: #e5e5e5;
+    height: 15rem;
+    overflow-y: scroll;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textCart{
+    margin-top: 0.8rem;
+}
+
+.productsContainer{
+    overflow-y: scroll;
+}
+
+.productImg{
+    max-height: 450px;
+}
+
+.innerCart{
+    overflow-y: scroll;
+}
+
+button{
+    border-radius: 5px;
+    font-family: 'Arvo', serif;
+    
+}
+
+@media only screen and (max-width:520px){
+    #titulo{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width:330px){
+    #titulo{
+        font-size: 2.3rem;
+    }
+}
